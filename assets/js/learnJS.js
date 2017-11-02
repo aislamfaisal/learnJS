@@ -19,3 +19,13 @@ String length*/
     var charLength = string.length;
     document.getElementById("showLength").innerHTML = charLength;
 }*/
+
+/*Print value from form*/
+function showEmployeeInfo(){
+    var name = document.employeeInfo.employeeName.value;
+    var email = document.employeeInfo.employeeEmail.value;
+    var phone = document.employeeInfo.employeePhone.value;
+    var education = document.employeeInfo.employeeEducation.value;
+    var showInfo = "Name: " + name + "<br>" + "Email: " +  email + "<br>" + "Phone: " +  phone + "<br>" + "Education: " + education;
+    document.getElementById("employeeInfoShow").innerHTML = showInfo;
+}

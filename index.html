@@ -20,6 +20,33 @@
                     <button class="btn btn-success" onclick="showStringLength()"> Show Length </button>
                 </form>
                 <p id="showLength"></p>-->
+
+                <!-- Print value from form -->
+                <form name="employeeInfo" class="d-flex justify-content-center">
+                    <div class="form-group">
+                        <label class="form-control-label">Name: </label>
+                        <input type="text" class="form-control" name="employeeName">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-control-label">Email: </label>
+                        <input type="email" class="form-control" name="employeeEmail">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-control-label">Phone: </label>
+                        <input type="tel" class="form-control" name="employeePhone">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-control-label">Education: </label>
+                        <select name="employeeEducation">
+                            <option value="B.Sc." selected>B.Sc.</option>
+                            <option value="M.Sc.">M.Sc.</option>
+                        </select>
+                    </div>
+                    <input type="button" class="btn btn-outline-secondary" onclick="showEmployeeInfo()" value="submit">
+                </form>
+                <div class="text-success" id="employeeInfoShow">
+
+                </div>
             </div>
         </div>
     </div>
