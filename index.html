@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 pt-5">
+            <div class="col-6 pt-5">
                 <!-- First function implemented -->
                 <!--<button class="btn btn-primary" onclick="alertMessage()">Click Me</button>-->
                 <!-- Show result in another div -->
@@ -47,6 +47,29 @@
                 <div class="text-success" id="employeeInfoShow">
 
                 </div>-->
+                <!-- Temperature Convert -->
+                <!--<form name="showTemperature">
+                    <div class="form-group">
+                        <label for="inputTemp" class="form-control-label">Temperature: </label>
+                        <input type="text" id="inputTemp">
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" name="choice" value="fahrenheit" checked> Convert to Fahrenheit:<br>
+                        <input type="radio" name="choice" value="celsius"> Convert to Celsius:
+                    </div>
+                    <input type="button" value="Convert" onclick="tempResult()">
+                </form>
+                <h1 id="showResult"></h1>-->
+
+                <form name="checkList">
+                    <div class="form-group">
+                        <input type="text" name="listItem">
+                        <input type="button" onclick="allListItem()" value="Added to list">
+                    </div>
+                </form>
+                <div id="showList">
+
+                </div>
             </div>
         </div>
     </div>
