@@ -45,9 +45,9 @@ String length*/
     }
     document.getElementById("showResult").innerHTML = result;
 }*/
-
-function allListItem(){
+/* Add list item */
+/*function allListItem(){
     var listsItem = document.checkList.listItem.value;
     var showLists = '<ul class="list-group"><li class="list-group-item"><input type="checkbox" checked>' + listsItem + '</li></ul>';
     document.getElementById('showList').innerHTML += showLists;
-}
+}*/
